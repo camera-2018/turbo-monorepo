@@ -1,0 +1,9 @@
+{
+  "name": "new-monorepo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "workspaces": ["ts-nextjs-tailwind-starter"],
+  "packageManager": "yarn@1.22.15",
+  "private": true
+}
