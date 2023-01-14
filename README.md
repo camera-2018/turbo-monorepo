@@ -35,3 +35,9 @@ npx turbo deploy
 ```bash
 npx turbo dev
 ```
+
+提交之前运行一次以下代码lint以下防止commit被拦住
+
+```bash
+npx turbo lint:fix
+```
