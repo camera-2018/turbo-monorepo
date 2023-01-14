@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
-  "workspaces": ["ts-nextjs-tailwind-starter"],
+  "workspaces": [
+    "ts-nextjs-tailwind-starter"
+  ],
   "packageManager": "yarn",
   "private": true,
   "scripts": {

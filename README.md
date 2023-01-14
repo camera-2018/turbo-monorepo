@@ -5,20 +5,20 @@
 ## 安装
 
 ```bash
-yarn 
+yarn
 ```
 
 ```bash
 npx turbo login
 ```
 
-登录你的vercel账号
+登录你的 vercel 账号
 
 ```bash
 npx turbo link
 ```
 
-连接上vercel缓存
+连接上 vercel 缓存
 
 ## 运行
 
