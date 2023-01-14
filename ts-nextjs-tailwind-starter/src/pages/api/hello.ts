@@ -3,6 +3,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function hello(req: NextApiRequest, res: NextApiResponse) {
-  const a = 1;
-  res.status(200).json({ name: a });
+  res.status(200).json({ name: 'Bambang' });
 }
