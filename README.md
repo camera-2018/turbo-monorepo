@@ -41,3 +41,7 @@ npx turbo dev
 ```bash
 npx turbo lint:fix
 ```
+
+[commitlint规则](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+
+[monoremo框架turbo](https://turbo.build/repo/docs)
