@@ -1,4 +1,4 @@
-type OpenGraphType = {
+export type OpenGraphType = {
   siteName: string;
   description: string;
   templateTitle?: string;
