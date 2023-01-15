@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "workspaces": [
-    "ts-nextjs-tailwind-starter"
+    "frontend"
   ],
   "packageManager": "yarn@1.22.19",
   "private": true,

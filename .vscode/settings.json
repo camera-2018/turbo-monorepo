@@ -7,5 +7,5 @@
   },
   "headwind.runOnSave": false,
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "eslint.workingDirectories": ["./ts-nextjs-tailwind-starter"]
+  "eslint.workingDirectories": ["./frontend"]
 }
