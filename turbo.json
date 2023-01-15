@@ -27,6 +27,8 @@
         "build"
       ]
     },
-    "prepare": {}
+    "prepare": {},
+    "format:check": {},
+    "typecheck": {}
   }
 }
