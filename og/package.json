@@ -10,8 +10,7 @@
     "lint:fix": "eslint src --fix && yarn format",
     "format": "prettier --write src",
     "release": "standard-version",
-    "push-release": "git push --follow-tags origin main",
-    "postbuild": "next-sitemap"
+    "push-release": "git push --follow-tags origin main"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
