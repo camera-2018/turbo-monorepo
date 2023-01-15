@@ -36,12 +36,12 @@ npx turbo deploy
 npx turbo dev
 ```
 
-提交之前运行一次以下代码lint以下防止commit被拦住
+提交之前运行一次以下代码 lint 以下防止 commit 被拦住
 
 ```bash
 npx turbo lint:fix
 ```
 
-[commitlint规则](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+[commitlint 规则](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
 
-[monoremo框架turbo](https://turbo.build/repo/docs)
+[monoremo 框架 turbo](https://turbo.build/repo/docs)

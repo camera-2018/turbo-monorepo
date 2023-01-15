@@ -2,30 +2,20 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": [
-        "^lint"
-      ]
+      "dependsOn": ["^lint"]
     },
     "test": {
-      "dependsOn": [
-        "build"
-      ]
+      "dependsOn": ["build"]
     },
     "lint": {},
     "lint:fix": {},
     "lint:strict": {},
     "format": {},
     "deploy": {
-      "dependsOn": [
-        "build",
-        "test",
-        "lint"
-      ]
+      "dependsOn": ["build", "test", "lint"]
     },
     "dev": {
-      "dependsOn": [
-        "build"
-      ]
+      "dependsOn": ["build"]
     },
     "prepare": {},
     "format:check": {},
