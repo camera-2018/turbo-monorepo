@@ -9,6 +9,8 @@
   "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
+    "dev": "npx turbo dev",
+    "lint": "npx turbo lint:fix",
     "prepare": "husky install",
     "build": "turbo run build",
     "test": "turbo run test",

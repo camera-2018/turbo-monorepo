@@ -138,20 +138,20 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnstyledLink href='/'>Internal Links</UnstyledLink>
-                  <UnstyledLink href='https://theodorusclarence.com'>
+                  <UnstyledLink href='https://bytedream.top'>
                     Outside Links
                   </UnstyledLink>
                 </div>
               </li>
               <li className='space-y-2'>
-                <h2 className='text-lg md:text-xl'>PrimaryLink</h2>
+                <h2 className='text-lg md:text-xl '>PrimaryLink</h2>
                 <p className={clsx('!mt-1 text-sm', textColor)}>
                   Add styling on top of UnstyledLink, giving a primary color to
                   the link.
                 </p>
                 <div className='space-x-2'>
                   <PrimaryLink href='/'>Internal Links</PrimaryLink>
-                  <PrimaryLink href='https://theodorusclarence.com'>
+                  <PrimaryLink href='https://bytedream.top'>
                     Outside Links
                   </PrimaryLink>
                 </div>
@@ -164,7 +164,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnderlineLink href='/'>Internal Links</UnderlineLink>
-                  <UnderlineLink href='https://theodorusclarence.com'>
+                  <UnderlineLink href='https://bytedream.top'>
                     Outside Links
                   </UnderlineLink>
                 </div>
@@ -203,36 +203,27 @@ export default function ComponentsPage() {
                   Button styled link with 3 variants.
                 </p>
                 <div className='flex flex-wrap gap-2'>
-                  <ButtonLink
-                    variant='primary'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='primary' href='https://bytedream.top'>
                     Primary Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='outline'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
+                    href='https://bytedream.top'
                   >
                     Outline Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='ghost'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
+                    href='https://bytedream.top'
                   >
                     Ghost Variant
                   </ButtonLink>
-                  <ButtonLink
-                    variant='dark'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='dark' href='https://bytedream.top'>
                     Dark Variant
                   </ButtonLink>
-                  <ButtonLink
-                    variant='light'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='light' href='https://bytedream.top'>
                     Light Variant
                   </ButtonLink>
                 </div>
