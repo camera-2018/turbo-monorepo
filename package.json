@@ -11,7 +11,10 @@
   "scripts": {
     "prepare": "husky install",
     "build": "turbo run build",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "lint:strict": "turbo run lint:strict",
+    "typecheck": "turbo run typecheck",
+    "format:check": "turbo run format:check"
   },
   "devDependencies": {
     "husky": "^7.0.4",

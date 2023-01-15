@@ -13,6 +13,7 @@
     },
     "lint": {},
     "lint:fix": {},
+    "lint:strict": {},
     "format": {},
     "deploy": {
       "dependsOn": [
