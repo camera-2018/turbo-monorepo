@@ -15,12 +15,14 @@
 - 👏 使用 TypeScript, 良好的类型定义，基于 Foundation / Adapter 架构，源码易于阅读 / 贡献 -->
 
 # 👐 使用
+
 ## 🔥 安装
+
 ```sh
 # 使用 npm
-npm install 
+npm install
 # 使用 yarn
-yarn 
+yarn
 ```
 
 ## 👍 开发
@@ -40,6 +42,7 @@ npm run build
 # 使用 yarn
 yarn build
 ```
+
 ## 👌 格式化
 
 提交之前运行一次以下代码 lint 以下防止 commit 被拦住
@@ -54,6 +57,7 @@ yarn lint
 ## 🎈 其他
 
 本操作会运行"build", "test", "lint"三个命令
+
 ```bash
 npx turbo deploy
 ```
@@ -69,6 +73,7 @@ yarn
 ```
 
 2. 登录你的 vercel 账号
+
 ```bash
 npx turbo login
 ```
@@ -83,28 +88,28 @@ npx turbo link
 
 ## commit
 
-commit的模板：
+commit 的模板：
 `type(scope): subject`
 
-`type`为commit的类型，本仓库的commit类型仅支持如下：
-    `feat`: 新特性
-    `fix`: 修改问题
-    `refactor`: 代码重构
-    `docs`: 文档修改
-    `style`: 代码格式修改
-    `test`: 测试用例修改
-    `chore`: 其他修改, 比如构建流程, 依赖管理.
-    `pref`: 性能提升的修改
-    `ci`: CI 的修改
-    `revert`: revert 前一个 commit （ 撤销前一个commit ）
-    `vercel`: vercel 部署相关的修改
-    
-`scope`是文件名/模块名/影响的范围
-    例如 Button
-    
-`subject`为commit概述
-    建议符合 50/72 formatting
-    
-例  feat(component): add success submit tips
+`type`为 commit 的类型，本仓库的 commit 类型仅支持如下：
+`feat`: 新特性
+`fix`: 修改问题
+`refactor`: 代码重构
+`docs`: 文档修改
+`style`: 代码格式修改
+`test`: 测试用例修改
+`chore`: 其他修改, 比如构建流程, 依赖管理.
+`pref`: 性能提升的修改
+`ci`: CI 的修改
+`revert`: revert 前一个 commit （ 撤销前一个 commit ）
+`vercel`: vercel 部署相关的修改
 
-注意 冒号和subject之间要加空格
+`scope`是文件名/模块名/影响的范围
+例如 Button
+
+`subject`为 commit 概述
+建议符合 50/72 formatting
+
+例 feat(component): add success submit tips
+
+注意 冒号和 subject 之间要加空格
