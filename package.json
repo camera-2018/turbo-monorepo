@@ -6,7 +6,7 @@
   "workspaces": [
     "ts-nextjs-tailwind-starter"
   ],
-  "packageManager": "yarn",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
     "dev": "npx turbo dev",
