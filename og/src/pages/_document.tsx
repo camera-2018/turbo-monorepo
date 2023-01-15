@@ -1,4 +1,4 @@
-//eslint-disable-next-line @next/next/no-document-import-in-page
+//eslint-disable-next-line
 import Document, {
   DocumentContext,
   Head,

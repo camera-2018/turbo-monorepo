@@ -12,8 +12,8 @@ export default function Nav() {
     <nav className='bg-gray-700'>
       <ul className='flex items-center justify-between px-8 py-4'>
         <li>
-          <Link href='/' className='font-bold text-green-400'>
-            Home
+          <Link href='/'>
+            <a className='font-bold text-green-400'>Home</a>
           </Link>
         </li>
         <ul className='flex items-center justify-between space-x-4'>

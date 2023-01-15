@@ -12,7 +12,7 @@ export default function CustomLink({
       {...rest}
       className={clsx(
         'custom-link animated-underline inline-flex items-center font-bold',
-        'ring-primary-400/70 focus:outline-none focus-visible:ring',
+        'focus:outline-none ring-primary-400/70 focus-visible:ring',
         'border-b border-dotted border-dark hover:border-black/0',
         className
       )}
