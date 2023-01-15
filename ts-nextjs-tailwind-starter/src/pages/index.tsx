@@ -18,10 +18,6 @@ import Seo from '@/components/Seo';
 // @ts-ignore
 import Vercel from '~/svg/Vercel.svg';
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
   return (
     <Layout>
@@ -64,8 +60,8 @@ export default function HomePage() {
 
             <footer className='absolute bottom-2 text-gray-700'>
               © {new Date().getFullYear()} By{' '}
-              <UnderlineLink href='https://bytedream.top?ref=tsnextstarter'>
-                Theodorus Clarence
+              <UnderlineLink href='https://bytedream.top'>
+                ByteDream-JueJin
               </UnderlineLink>
             </footer>
           </div>
