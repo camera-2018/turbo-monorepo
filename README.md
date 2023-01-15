@@ -44,7 +44,7 @@ npx turbo lint:fix
 
 [commit lint 规则](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
 
-``` bash
+```bash
 commit的模板：
 type(scope): subject
 
@@ -60,13 +60,13 @@ type为commit的类型，本仓库的commit类型仅支持如下：
     ci: CI 的修改
     revert: revert 前一个 commit （ 撤销前一个commit ）
     vercel: vercel 部署相关的修改
-    
+
 scope是文件名/模块名/影响的范围
     例如 Button
-    
+
 subject为commit概述
     建议符合 50/72 formatting
-    
+
 例  feat(component): add success submit tips
 
 注意 冒号和subject之间要加空格
