@@ -16,7 +16,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.13",
-    "chrome-aws-lambda": "^10.1.0",
+    "chrome-aws-lambda": "10.0.0",
     "clsx": "^1.2.1",
     "next": "^13.1.2",
     "next-api-og-image": "^4.3.0",
