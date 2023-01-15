@@ -6,7 +6,7 @@
   "workspaces": [
     "ts-nextjs-tailwind-starter"
   ],
-  "packageManager": "yarn@1.22.15",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
     "prepare": "husky install",
